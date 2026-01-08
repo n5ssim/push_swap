@@ -10,17 +10,17 @@ The program takes a list of integers as arguments and outputs the sequence of op
 
 ### Compilation
 ```bash
-make        # Compile the project
-make clean  # Remove object files
-make fclean # Remove object files and executable
-make re     # Recompile everything
+make                     # Compile the project
+make clean               # Remove object files
+make fclean              # Remove object files and executable
+make re                  # Recompile everything
 ```
 
 ### Usage
 ```bash
-./push_swap 3 2 1 # Basic usage
-./push_swap 1 2 3 # No output if already sorted
-./push_swap       # No output if no parameters
+./push_swap 3 2 1        # Basic usage
+./push_swap 1 2 3        # No output if already sorted
+./push_swap              # No output if no parameters
 
 # Error cases 
 ./push_swap 0 one 2 3    # Non-integer argument
