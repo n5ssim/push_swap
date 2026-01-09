@@ -18,7 +18,7 @@ void	pb(t_stack *a, t_stack *b)
 	int	i;
 
 	if (a->size < 1)
-		return;
+		return ;
 	temp = a->tab[0];
 	i = b->size;
 	while (i > 0)
@@ -42,9 +42,9 @@ void	pa(t_stack *a, t_stack *b)
 {
 	int	temp;
 	int	i;
-	
+
 	if (b->size < 1)
-		return;
+		return ;
 	temp = b->tab[0];
 	i = a->size;
 	while (i > 0)

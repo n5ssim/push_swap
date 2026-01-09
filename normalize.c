@@ -18,16 +18,16 @@ void	normalize(t_stack *a)
 	int	i;
 	int	j;
 	int	count;
-	
+
 	new_tab = malloc(a->size * sizeof(int));
 	if (!new_tab)
-		return;
+		return ;
 	i = 0;
 	while (i < a->size)
 	{
 		count = 0;
 		j = 0;
-		while (j <  a->size)
+		while (j < a->size)
 		{
 			if (a->tab[j] < a->tab[i])
 				count++;
