@@ -19,6 +19,8 @@ make re                  # Recompile everything
 ### Usage
 ```bash
 ./push_swap 3 2 1        # Basic usage
+./push_swap -7 19 42     # Also works with negative numbers
+
 ./push_swap 1 2 3        # No output if already sorted
 ./push_swap              # No output if no parameters
 
@@ -26,6 +28,7 @@ make re                  # Recompile everything
 ./push_swap 0 one 2 3    # Non-integer argument
 ./push_swap 1 2 2 3      # Duplicate numbers
 ./push_swap 2147483648   # Integer overflow
+./push_swap "3 2 1"      # Arguments between quotes
 ```
 
 ### Verify with checker
