@@ -40,9 +40,7 @@ ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker_Mac $ARG
 
 ## AI Usage
 
-AI (Claude) was used to:
-- Explain C concepts (structures, pointers)
-- Debug and troubleshoot errors
-- Explain the radix sort algorithm
-
-All code was written and understood by the student through guided learning.
+[AI (Claude)](https://claude.com/product/overview) was used as a learning tool for:
+- Understanding C concepts (structures, pointers, memory management)
+- Debugging and troubleshooting
+- Algorithm explanation (radix sort)
