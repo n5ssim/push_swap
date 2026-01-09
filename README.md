@@ -31,10 +31,11 @@ make re                  # Recompile everything
 ./push_swap "3 2 1"      # Arguments between quotes
 ```
 
-### Verify with checker
+### Verify with checker (42 students only)
 ```bash
 ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker_Mac $ARG
 ```
+*Note: checker binary available on 42 intranet*
 
 ## Resources
 
